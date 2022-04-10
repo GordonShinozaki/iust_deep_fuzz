@@ -34,8 +34,8 @@ iu_config = {
     'iupdf_host3': 'incremental_update/new_pdfs/host3/',
 
     # configuration setting to measure code coverage
-    'sut_dir': 'D:/afl/mupdf/platform/win32/Release/',
-    'sut_path': 'D:/afl/mupdf/platform/win32/Release/mutool.exe',
+    'sut_dir': 'C:/"Program Files"/mupdf-1.19.0-windows',
+    'sut_path': 'C:/"Program Files"/mupdf-1.19.0-windows/mutool.exe',
     'sut_arguments': ' clean -difa ',
     
     'visual_studio_developer_cmd_path':
