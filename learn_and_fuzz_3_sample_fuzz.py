@@ -42,10 +42,10 @@ import random
 import numpy as np
 
 from keras import backend as K
-from keras.models import load_model
-from keras.optimizers import RMSprop, Adam
-from keras.callbacks import ModelCheckpoint, EarlyStopping, TensorBoard, CSVLogger, LambdaCallback
-from keras.utils import plot_model
+from tensorflow.keras.models import load_model
+from tensorflow.keras.optimizers import RMSprop, Adam
+from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping, TensorBoard, CSVLogger, LambdaCallback
+from tensorflow.keras.utils import plot_model
 
 import pdf_object_preprocess as preprocess
 from config import learning_config
